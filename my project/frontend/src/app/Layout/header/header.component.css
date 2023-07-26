@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #363535;
+    color: #e7dede;
+    font-size: 30px;
+  }
+  
+  span {
+    color: rgb(77, 217, 217);
+    margin-left: 6px;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto; 
+    font-size:15px;
+    display: flex;
+    width: 100px;
+    height:40px;
+
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .logout-button:focus {
+    outline: none;
+  }
+  .mat-icon{
+font-size: 20px;
+  }
